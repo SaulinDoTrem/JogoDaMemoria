@@ -1,0 +1,26 @@
+.text {
+    padding: 2rem 0;
+    text-align: center;
+    color: $color-text-dark;
+
+    h1 {
+        font-size: 4.4rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+
+    button {
+        width: 100%;
+        color: $color-text-light;
+        font-family: $font-family;
+        border: none;
+        background: $color-primary;
+        border-radius: 8px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        padding: 5px;
+    }
+}

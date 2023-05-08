@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+// fonts
+$font-family: "Roboto", sans-serif;
+
+//Colors
+$color-primary: #13141f;
+$color-secondary: #dc143c;
+$color-text-light: #fff;
+$color-text-dark: #000;
+
+/* Grid breakpoints */
+$grid-breakpoints: (
+    xs: 0,
+    sm: 375px,
+    md: 768px,
+    lg: 1025px,
+    gg: 1280px,
+    xl: 2500px,
+) !default;
+
+$z-index: (
+    level-1: 5,
+    level-2: 10,
+    level-3: 15,
+    level-4: 20,
+    level-5: 25,
+) !default;
